@@ -20,3 +20,19 @@ pivot_table.reset_index(inplace=True)
 pivot_table.columns = ['Region', 'Manager', 'SalesMan', 'Total Sale Amount']
 
 print(pivot_table)
+
+Region  Manager   SalesMan  Total Sale Amount
+0   Central  Douglas       John              125.0
+1   Central  Hermann       Luis             2396.0
+2   Central  Hermann     Shelli              500.0
+3   Central  Hermann      Sigal             1198.0
+4   Central   Martha      Sigal              500.0
+5   Central   Martha     Steven             1198.0
+6   Central  Timothy      David              225.0
+7      East  Douglas      Karen              500.0
+8      East  Hermann  Alexander               58.5
+9      East   Martha  Alexander             3621.0
+10     East   Martha      Diana              500.0
+11     West  Douglas    Michael             1198.0
+12     West  Timothy    Stephen             1198.0
+

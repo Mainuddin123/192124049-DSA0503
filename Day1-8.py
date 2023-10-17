@@ -16,3 +16,9 @@ pivot_table.reset_index(inplace=True)
 pivot_table.columns = ['Item', 'Unit Sold']
 
 print(pivot_table)
+
+
+ Item  Unit Sold
+0    A        500
+1    B        670
+2    C        760

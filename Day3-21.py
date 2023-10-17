@@ -11,3 +11,5 @@ column_name = 'Text'
 df[column_name] = df[column_name].str.swapcase()
 
 print(df)
+
+

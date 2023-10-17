@@ -25,3 +25,9 @@ job_count = df.groupby('EMPLOYEE_ID')['JOB_ID'].nunique()
 employees_with_multiple_jobs = job_count[job_count >= 2].index
 
 print(employees_with_multiple_jobs)
+
+EMPLOYEE_ID
+101    2
+176    2
+200    2
+Name: JOB_ID, dtype: int64

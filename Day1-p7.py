@@ -16,3 +16,8 @@ pivot_table.reset_index(inplace=True)
 pivot_table.columns = ['Item', 'Max Sale', 'Min Sale']
 
 print(pivot_table)
+
+Item  Max Sale  Min Sale
+0    A       150       100
+1    B       250       200
+2    C       300       180
